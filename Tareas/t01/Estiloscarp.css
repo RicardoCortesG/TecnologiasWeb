@@ -1,0 +1,65 @@
+h2{
+    text-shadow: 2px 2px 5px red;
+}
+h5{
+    text-shadow: 2px 2px 5px black;
+}
+li{
+    text-shadow: 2px 2px 5px rgb(160, 144, 218);
+}
+
+
+.Imagen{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 10px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item1{
+    margin-right: 15px;
+}
+
+.itme2{
+    margin-left: 15px;
+}
+
+.Imagen2{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 10px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.menu{
+    margin: 10px 20px;
+    box-shadow: 0 8px 10px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 180px;
+}
+
+div.menu img{
+    width: 100%;
+    height: left;
+}
+div.menu:hover{
+    border: 1px solid teal;
+    transform: scale(1);
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+    padding: 10px;
+}
+body{
+    background: #525252;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aliceblue;
+}
